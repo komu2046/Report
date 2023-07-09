@@ -22,4 +22,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: homework(3.9)
-          path: homework(3.9).txt
+          path: ./homework(3.9).txt
