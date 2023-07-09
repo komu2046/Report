@@ -20,5 +20,5 @@ jobs:
         run: python -c "import sys; print(sys.version)"
       - uses: actions/upload-artifact@v3
         with:
-          name: homework(3.10)
-          path: ./homework(3.10).txt
+          name: homework
+          path: ./homework/python(3.10).txt
