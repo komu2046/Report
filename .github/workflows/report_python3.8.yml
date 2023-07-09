@@ -20,7 +20,7 @@ jobs:
         run: | 
              echo import sys > version.py 
              echo print"(sys.version)" >> version.py 
-             python -c version.py > result.txt
+             python version.py > result.txt
       - name: Upload Artifacts
         uses: actions/upload-artifact@v3
         with:
