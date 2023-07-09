@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Display Python version
-        run: mkdir -p path/to/homework
+        run: mkdir -p path/to/homework | 
              python -c "import sys; print(sys.version)" > path/to/homework/python.txt
       - uses: actions/upload-artifact@v3
         with:
