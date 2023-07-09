@@ -20,8 +20,8 @@ jobs:
         run: python -c "import sys; print(sys.version)"
         
       - uses: actions/checkout@v3
-      - run: mkdir -p ./Report
+      - run: mkdir -p Report
       - uses: actions/upload-artifact@v3
         with:
           name: homewrk
-          path: ./Report/python.txt
+          path: Report/python.txt
