@@ -22,5 +22,5 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: homewrk
-          path: komu2046/Report/python.txt
+          path: ./python.txt
 
