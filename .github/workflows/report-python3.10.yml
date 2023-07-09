@@ -18,7 +18,8 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
+      - name : Print version Python3.10
       - uses: actions/upload-artifact@v3
         with:
-          name: python3.10
-          path: python3.10.txt
+          name: homework(3.10)
+          path: homework(3.10).txt
