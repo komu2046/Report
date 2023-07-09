@@ -25,3 +25,5 @@ jobs:
         with:
           name: homewrk
           path: Report/python.txt
+      - name: Print Current Directory
+        run: echo "Current Directory:$GITHUB_WORKSPACE"
