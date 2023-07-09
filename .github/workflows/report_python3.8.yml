@@ -24,6 +24,5 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: homewrk
-          path: Report/python.txt
-      - name: Print Current Directory
-        run: echo "Current Directory:$GITHUB_WORKSPACE"
+          path: /home/runner/work/Report/Report/python.txt
+
