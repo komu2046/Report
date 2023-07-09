@@ -22,4 +22,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: python-version-artifact
-          path: ./python_version.txt
+          path: /home/komu2046/Report/Report/python_version.txt
