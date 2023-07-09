@@ -21,4 +21,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: homework
-          path: .\homework\python(3.8).txt
+          path: .\python(3.8).txt
